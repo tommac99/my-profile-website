@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fffaef;
+  color: #000;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2 {
+  color: rgba(28, 47, 75, 1);
+}
+
+h1 {
+  color: rgba(28, 47, 75, 1);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+a {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  color: purple;
+}
+
+.card-white {
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 20px 40px;
+  background: white;
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
+}
+
+.list-inline {
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+/* .list-inline li a i {
+  font-size: 30px;
+  margin: 10px;
+  color: #000;
+} */
+
+.social-icons {
+  font-size: 30px;
+  margin: 10px;
+  color: #000;
+}
+
+.btn-container {
+  margin: 40px 0;
+}
+
+.btn {
+  width: 200px;
+  text-align: center;
+  padding: 20px 40px;
+  border-radius: 5px;
+  background: rgb(0, 76, 163);
+  color: white;
+}
+
+.btn:hover {
+  background: rgb(0, 56, 163);
+  color: white;
+}
+
+.btn:active {
+  background: #000;
+}
+
+.container {
+  width: 800px;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 100%;
+  }
+  h1 {
+    color: red;
+    font-size: 20px;
+  }
+}
+
+.my-20 {
+  margin: 20px 0;
+}
